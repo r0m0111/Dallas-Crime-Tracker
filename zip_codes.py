@@ -20,8 +20,8 @@ def main():
     # Unauthenticated client only works with public data sets. Note 'None'
     # in place of application token, and no username or password:
     client = Socrata("www.dallasopendata.com", "rPRXH917VkPlfDQv6olYk5Hx4",
-                    username="angelromb9@gmail.com",
-                    password="Dallascrimetest123",timeout=60)
+                    username="youremailapi",
+                    password="yourpasswordapi",timeout=60)
 
     # Example authenticated client (needed for non-public datasets):
     # client = Socrata(www.dallasopendata.com,
